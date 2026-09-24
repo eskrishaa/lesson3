@@ -1,0 +1,7 @@
+A = int(input("A: "))
+B = int(input("B: "))
+C = int(input("C: "))
+pos = (A > 0) + (B > 0) + (C > 0)
+neg = (A < 0) + (B < 0) + (C < 0)
+print("Положительных", pos)
+print("Отрицательных", neg)
